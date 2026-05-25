@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="mensaje">Texto original</p>
+    <button onclick="cambiarTexto()">Cambia el texto</button>
+    <button onclick="originText()">Vuelve al texto original</button>
+    <SCript>
+        function cambiarTexto(){
+            document.getElementById("mensaje").innerText = "Texto cambiado con JS";
+        }
+           function originText(){
+            document.getElementById("mensaje").innerText = "Cambia el texto";
+        }
+    </SCript>
+</body>
+</html>
